@@ -2,6 +2,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+//database schema
 const RandomNumberSchema = new Schema({
     value: {
         type: Number,
@@ -23,5 +24,3 @@ const RandomNumber =
     mongoose.model('RandomNumber', RandomNumberSchema);
 
 module.exports = RandomNumber;
-
-//podłączyć baze danych !!!
