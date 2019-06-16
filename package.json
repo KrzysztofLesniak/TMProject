@@ -1,0 +1,24 @@
+{
+    "name": "simplepooling",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon"
+    },
+    "author": "Lesniak Krzys",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "chart.js": "^2.8.0",
+        "cors": "^2.8.5",
+        "ejs": "^2.6.1",
+        "express": "^4.17.0",
+        "mongoose": "^5.5.11",
+        "nodemon": "^1.19.0",
+        "pusher": "^2.2.0",
+        "routes": "^2.1.0",
+        "views": "^1.0.2"
+    }
+}
